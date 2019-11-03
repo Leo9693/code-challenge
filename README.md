@@ -77,7 +77,7 @@ install all necessary dependencies to launch the app
 npm run test
 ```
 
-execute tests for the app, two test so far for api calls
+execute tests for the app, we have tests for asynchronous API requests and snapshots for react components
 
 ## 🎈 Usage <a name="usage"></a>
 
