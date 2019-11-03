@@ -1,68 +1,109 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+</p>
 
-## Available Scripts
+<h3 align="center">qantas-code-challenge</h3>
 
-In the project directory, you can run:
+<div align="center">
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 📝 Table of Contents
 
-### `npm test`
+-   [About](#about)
+-   [Getting Started](#getting_started)
+-   [Tests](#tests)
+-   [Usage](#usage)
+-   [Built Using](#built_using)
+-   [Authors](#authors)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧐 About <a name = "about"></a>
 
-### `npm run build`
+This project is developed for quatas code challenge.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Description:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+You have been tasked with the job of giving Qantas customers the ability to view which airports Qantas currently operates from. As part of this task you will build a mobile responsive app which will load the list of airports from an API and present them to users.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Deliverable:
 
-### `npm run eject`
+1. A responsive web application.
+2. Any supporting documentation or instructions needed to run the app.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Must have(s)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   A project that runs on Google Chrome.
+-   Appropriate unit testing coverage.
+-   Allows you to navigate and view airport detail (details page)
+-   README detailing how to compile/run the app (if needed)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Nice to have
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+-   Handle API failures
+-   Handle no network connectivity (caching)
+-   Attractive UI (animations etc)
 
-## Learn More
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
 
-### Code Splitting
+What things you need to install the software and how to install them.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```
+node -v
+  v12.13.0
+npm -v
+  6.12.0
+```
 
-### Analyzing the Bundle Size
+make sure you have already installed node and npm.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Installing
 
-### Making a Progressive Web App
+```
+npm install
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+install all necessary dependencies to launch the app
 
-### Advanced Configuration
+## 🔧 Running the tests <a name = "tests"></a>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+```
+npm run test
+```
 
-### Deployment
+execute tests for the app, two test so far for api calls
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## 🎈 Usage <a name="usage"></a>
 
-### `npm run build` fails to minify
+```
+npm run start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+launch the app and you can access it at http://localhost:3000/
+
+All of features have been implemented according to requirements.(must haves and optional)
+
+### main features
+
+-   Proper mobile responsive design has been done for mobile, tablet and laptop. feel free to check that by inspecting the app with F12 and changing screen size.
+
+-   404 request and requests that fail to fetch data have been handled. There will be an alert if the api call fail. Check this by changing the endPoint under config folder. please check there is no localstorage, otherwise there is no alert. cached data will be used.
+
+-   data will be cached into local storage. please make sure you can load the data first when network works. then you can check this by disconnecting your network, and the app still works. No need to set expired time for data under this code challenge scenario, feel free to clear your local storage manually if you want.
+
+## ⛏️ Built Using <a name = "built_using"></a>
+
+-   [Reactjs](https://reactjs.org/) - Front end framework
+-   [Redux](https://redux.js.org/) - State Management
+-   [React-Bootstrap](https://react-bootstrap.github.io/) - UI Framework
+-   [styled-components](https://www.styled-components.com/) - UI library
+
+## ✍️ Authors <a name = "authors"></a>
+
+-   [wujian gao](https://github.com/gaowujian) - Idea & Initial work
