@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import Spinner from "../Spinner";
 import { getAirportInfo, loadMoreAirports, loadExistedAirports } from "../../action/actionCreator";
-import { ListGroup } from "react-bootstrap";
+import { ListGroup, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { FlexBox, Icon, AnimatedBox, AnimatedButton } from "./style";
+import { FlexBox, Icon, AnimatedBox, AnimatedButton, Small } from "./style";
 class index extends Component {
     componentDidMount() {
         const { getAirportInfo, loadExistedAirports } = this.props;
@@ -20,7 +20,7 @@ class index extends Component {
         else {
             const visibleAirports = airports.slice(0, visibleAirportsNumber);
             return (
-                <React.Fragment>
+                <Container>
                     <ListGroup>
                         <AnimatedBox>
                             {visibleAirports.map((airport, index) => (
@@ -29,6 +29,7 @@ class index extends Component {
                                         <Link to={`/airport/${index}`}>
                                             <h4>{airport.airportName}</h4>
                                         </Link>
+                                        <Small>{airport.country.countryName}</Small>
                                         <Link to={`/airport/${index}`}>
                                             <Icon className="fas fa-arrow-right" />
                                         </Link>
@@ -40,7 +41,7 @@ class index extends Component {
                     <AnimatedButton onClick={this.props.loadMoreAirports} block>
                         Load more
                     </AnimatedButton>
-                </React.Fragment>
+                </Container>
             );
         }
     }

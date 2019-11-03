@@ -21,6 +21,11 @@ export const FlexBox = styled.div`
         font-size: 1.3rem;
     }
 `;
+export const Small = styled.small`
+    font-size: 50%;
+    color: grey;
+    margin: 0 auto 0 2rem;
+`;
 
 export const Icon = styled.i`
     padding: 1rem;

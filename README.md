@@ -92,7 +92,7 @@ All of features have been implemented according to requirements.(must haves and 
 ### main features
 
 -   Proper mobile responsive design has been done for mobile, tablet and laptop. feel free to check that by inspecting the app with F12 and changing screen size.
-  
+
 -   Rich animation and hover effects create better UX.
 
 -   404 request and requests that fail to fetch data have been handled. There will be an alert if the api call fail. Check this by changing the endPoint under config folder. before that, make sure localstorage has been cleared, otherwise cached data will be used alert won't appear..
