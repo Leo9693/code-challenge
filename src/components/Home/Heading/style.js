@@ -9,9 +9,13 @@ export const Heading = styled.div`
     padding: 2rem 0;
     transition: all 1s;
     animation: ${keyframes`${zoomIn}`} 0.6s ease-in-out;
+    a {
+        width: 200px;
+    }
     img {
         max-width: 200px;
         display: block;
+        margin: 0 auto;
         &:hover {
             cursor: pointer;
         }

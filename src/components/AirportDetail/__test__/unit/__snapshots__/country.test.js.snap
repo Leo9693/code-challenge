@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test country component 1`] = `
+"<styled.div>
+  <h3>
+    Country:
+  </h3>
+  <styled.p>
+    CountryCode: 
+  </styled.p>
+  <styled.p>
+    CountryName: 
+  </styled.p>
+</styled.div>"
+`;

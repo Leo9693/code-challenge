@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test location Types component 1`] = `
+"<styled.div>
+  <h3>
+    Location:
+  </h3>
+  <styled.p>
+    aboveSeaLevel: 
+  </styled.p>
+  <styled.p>
+    latitude: 
+  </styled.p>
+  <styled.p>
+    latitudeRadius: 
+  </styled.p>
+  <styled.p>
+    longitude: 
+  </styled.p>
+  <styled.p>
+    longitudeRadius: 
+  </styled.p>
+  <styled.p>
+    latitudeDirection: 
+  </styled.p>
+  <styled.p>
+    longitudeDirection: 
+  </styled.p>
+</styled.div>"
+`;

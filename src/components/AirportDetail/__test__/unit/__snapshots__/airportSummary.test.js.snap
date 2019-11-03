@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test ariport Types component 1`] = `
+"<styled.div data-test=\\"container\\">
+  <h3>
+    Airport Summary:
+  </h3>
+  <styled.p data-test=\\"airportName\\">
+    AirportName: 
+  </styled.p>
+  <styled.p data-test=\\"airportCode\\">
+    AirportCode: 
+  </styled.p>
+  <styled.p data-test=\\"city\\">
+    CityName: 
+  </styled.p>
+</styled.div>"
+`;

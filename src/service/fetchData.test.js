@@ -1,5 +1,5 @@
 import { getAirports } from "./fetchData";
-import Heading from "../components/Home/Heading";
+
 describe("api test", () => {
     test("fetching data return not null", async () => {
         const res = await getAirports();

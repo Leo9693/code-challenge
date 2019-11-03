@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test ariport Types component 1`] = `
+"<styled.div>
+  <h3>
+    Airport types:
+  </h3>
+  <styled.div>
+    InternationalAirport
+    <styled.span>
+      <i className=\\"fas fa-times\\" />
+    </styled.span>
+  </styled.div>
+  <styled.div>
+    DomesticAirport
+    <styled.span>
+      <i className=\\"fas fa-times\\" />
+    </styled.span>
+  </styled.div>
+  <styled.div>
+    RegionalAirport
+    <styled.span>
+      <i className=\\"fas fa-times\\" />
+    </styled.span>
+  </styled.div>
+  <styled.div>
+    OnlineIndicator
+    <styled.span>
+      <i className=\\"fas fa-times\\" />
+    </styled.span>
+  </styled.div>
+  <styled.div>
+    EticketableAirport
+    <styled.span>
+      <i className=\\"fas fa-times\\" />
+    </styled.span>
+  </styled.div>
+</styled.div>"
+`;

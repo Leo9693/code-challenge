@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test city component 1`] = `
+"<styled.div>
+  <h3>
+    City:
+  </h3>
+  <styled.p>
+    CityCode: 
+  </styled.p>
+  <styled.p>
+    CityName: 
+  </styled.p>
+  <styled.p>
+    TimeZoneName: 
+  </styled.p>
+</styled.div>"
+`;
